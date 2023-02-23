@@ -1,0 +1,29 @@
+#Encabezado #Titulo
+{
+    color: grey;
+    /*Utilizamos la Fuente*/
+    font-family: 'Bangers', cursive;
+
+}
+/* Importar las Topigrafias escalables*/
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+*{
+
+margin: 0;
+
+padding: 0;
+
+}
+/* Utilización del @media y la tipografia Liquida*/
+@media screen and (min-width: 768px) {
+    #Titulo {
+      font-size: 18px; /* Aumenta el tamaño de fuente base en pantallas mayores a 768px */
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    #Titulo {
+      font-size: 20px; /* Aumenta el tamaño de fuente base en pantallas mayores a 1024px */
+    }
+  }
