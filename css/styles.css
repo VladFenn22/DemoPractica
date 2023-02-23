@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background: #ffff;
+    background: white;
     font-family: 'Lora', serif;
     overflow-x: hidden;
 }
@@ -91,7 +91,6 @@ body{
 .imagenes-redimensionales{width: 100%;}
 .imagenes-redimensionales .titulo{
     width: 100%;
-    margin-top: 100px;
     margin-bottom: 100px;
 }
 .imagenes-redimensionales .titulo h3{
@@ -198,24 +197,24 @@ footer p{
 }
 
 /** Mobile **/
-@media only screen and (max-width:560px) {
-    /** agregar si lo necesitan para sus ejemplos **/
-    
+@media only screen and (max-width: 430px) {
+    /** Img Header **/
+    .img-header .welcome{
+        width: 80%;
+        margin:auto;
+    }
+    .img-header .welcome h4{
+        font-size: 20px;
+        line-height: 45px;
+    }
+    .img-header .welcome > h2 a{
+        font-size: 25px;
+    }
 }
 
 /** Tablet **/
-@media only screen and (max-width:804px) {
-    
+@media only screen and (max-width:790px) {
     /** Navegation Menu **/
-    .btn-menu{
-        position: absolute;
-        top: 12px;
-        right: 30px;
-        display: block;
-        color:#fff;
-        font-size: 30px;
-        cursor: pointer;
-    }
     .menu .list-container{
         position: absolute;
         top: 60px;
@@ -245,19 +244,15 @@ footer p{
         margin:auto;
     }
     .img-header .welcome h4{
-        font-size: 30px;
+        font-size: 25px;
         line-height: 45px;
     }
     .img-header .welcome > h2 a{
-        font-size: 40px;
+        font-size: 30px;
     }
 
     /** Imágenes Redimensionales **/
     .imagenes-redimensionales .titulo h3{font-size: 35px;}
     .imagenes-redimensionales .titulo p{font-size: 18px;}
-
-    
-
-    
 
 }
